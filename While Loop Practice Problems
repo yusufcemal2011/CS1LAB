@@ -1,0 +1,16 @@
+#Q1:
+
+
+xValue = int(input("your number:"))
+y = xValue-0.5
+while (y > 0):
+  print(y)
+  y-=0.5
+  
+  #Q2:
+  
+  x=1
+while x < 50:
+  print(x**(1/2))
+  x+=2
+ 
