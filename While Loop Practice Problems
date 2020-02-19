@@ -22,3 +22,9 @@ answer = input("Are you a male ? ")
 while(answer!="yes"):
   answer = input("Are you male ? ")
 print("good")
+
+
+#Q4:
+answer = input("do you love me ? ")
+while(True):
+  answer = input("do you love me ? ")
