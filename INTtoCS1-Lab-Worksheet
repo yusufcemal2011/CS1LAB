@@ -1,0 +1,29 @@
+#Q1
+
+x = int(input("Your number: "))
+if (x%2 == 0):
+  print("Your number is even.")
+elif (x%2 != 0):
+  print("Your number is odd.")
+if (x%4 == 0):
+  print("Your number is a multiple of 4")
+
+check = int(input("Your first number: "))
+num = int(input("Your second number: "))
+if (check%num == 0):
+  print("No remainder.")
+else:
+  print("not evenly divisible.")
+  
+  
+  #Q2
+  
+x = int(input("Number please:"))
+if (0<x<10):
+  print(int(input("Enter another number please:")))
+elif(10<x<20):
+  print(str(input("Your name please:")))
+elif(20<x<100):
+  print("Your choice isbetween 20-100")
+else:
+  print("Just practicing:)")
