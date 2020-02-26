@@ -1,0 +1,6 @@
+#Q2:
+
+o = int(input("length of opposite side: "))
+a = int(input("length of adjacent side: "))
+c = ((o**2)+(a**2))**(1/2)
+print (c)
